@@ -1,0 +1,69 @@
+commit c65e440adc79eb144938aa998893378e57824012
+Author: Di Zhou <dizhou2010@gmail.com>
+Date:   Sun Nov 3 11:01:48 2019 -0500
+
+    Commit to be reverted
+
+diff --git a/myfile.txt b/myfile.txt
+index 24f9b54..f8e12f9 100644
+--- a/myfile.txt
++++ b/myfile.txt
+@@ -1 +1,2 @@
+ changing content
++text to be reverted
+
+commit 4b4be5ae28463645c4ae65762460c107068e9d94
+Author: Di Zhou <dizhou2010@gmail.com>
+Date:   Sun Nov 3 10:52:31 2019 -0500
+
+    files modified by dz1292
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..773a6df
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1 @@
++*.dat
+diff --git a/README.md b/README.md
+deleted file mode 100644
+index d690080..0000000
+--- a/README.md
++++ /dev/null
+@@ -1,2 +0,0 @@
+-# DS-GA-1007-HW06
+-for DS-GA1007 homework
+diff --git a/dir1/innerfile.txt b/dir1/innerfile.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/myfile.txt b/myfile.txt
+index e69de29..24f9b54 100644
+--- a/myfile.txt
++++ b/myfile.txt
+@@ -0,0 +1 @@
++changing content
+
+commit e6a37019ef1c03df26e2b6e9839dc109174fece5
+Author: Di Zhou <dizhou2010@gmail.com>
+Date:   Sun Nov 3 10:20:27 2019 -0500
+
+    First Commit
+
+diff --git a/myfile.txt b/myfile.txt
+new file mode 100644
+index 0000000..e69de29
+
+commit 5260ff3484060a0eb591eb57c14c2d56ead34a01
+Author: Di Zhou <diz@uchicago.edu>
+Date:   Sun Nov 3 10:16:47 2019 -0500
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..d690080
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++# DS-GA-1007-HW06
++for DS-GA1007 homework
